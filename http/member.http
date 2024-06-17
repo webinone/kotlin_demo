@@ -1,0 +1,13 @@
+###
+
+GET {{kotlin-demo-server}}/api/v1/members/me
+Authorization: {{token-type}} {{access-token}}
+Content-Type: application/json
+
+###
+
+GET {{kotlin-demo-server}}/api/v1/members/me/signin?pageNumber=0&pageSize=2&
+    startDateTime=2024-01-01T00:00:00&
+    endDateTime=2024-12-31T23:59:59
+Authorization: {{token-type}} {{access-token}}
+Content-Type: application/json

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kotlin_demo-server
+  profiles:
+    active: localhost
+
+jwt:
+  key: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa
+  access-token-expiration: 3600000 #1일
+  refresh-token-expiration: 86400000 #1일
